@@ -10,9 +10,9 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 <!-- {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %} -->
 ## 2.10.0-live ##
 
-- Added new response codes, 30005 to 30025 as  ITK3 needs to be able to support more business acknowledgements to address the extending of the Send Document capability so that referrals to alternative care providers (ACP) can now be sent.
+- Added new response codes, 30005 to 30025 to the CodeSystem ITK-ResponseCodes-1.  This is because ITK3 needs to be able to support more business acknowledgements to extend the Send Document capability so that referrals to alternative care providers (ACP) can be sent.
 
-
+ 
 ## 2.9.0-live ##
 
 - Added new response code 20015 "Message too large" and associated example
