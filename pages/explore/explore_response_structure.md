@@ -1150,7 +1150,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueSeverity</td>	
 <td>warning</td>
 <td>Warning</td>
-<td>The issue caused the action to fail, and no further checking could be performed.</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired</td>
 </tr>
 <tr>	
 <td>issue.code</td>	
@@ -1370,7 +1370,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueSeverity</td>	
 <td>warning</td>
 <td>Warning</td>
-<td>The issue caused the action to fail, and no further checking could be performed.</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
 </tr>
 <tr>	
 <td>issue.code</td>	
@@ -1384,6 +1384,622 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ITK-Response-Codes</td>		
 <td>30012</td>
 <td>Unable to contact the patient</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30013</td>
+<td>Closure (service not needed)</td>
+<td></td>	
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30014</td>
+<td>Closure (service not accepted)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>duplicate</td>
+<td>Duplicate</td>
+<td>An attempt was made to create a duplicate record.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30015</td>
+<td>Closure (duplicate referral)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30016</td>
+<td>Referral accepted</td>
+<td></td>	
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30017</td>
+<td>Referral rejected</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30018</td>
+<td>Did Not Attend</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30019</td>
+<td>GP Registration - Application accepted</td>
+<td></td>	
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30020</td>
+<td>GP Registration - Application pending (contact practice)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30020</td>
+<td>GP Registration - Application pending (contact practice)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30021</td>
+<td>GP Registration - Application rejected (patient already registered)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30022</td>
+<td>GP Registration - Application rejected (at capacity)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30023</td>
+<td>GP Registration - Application rejected (out of boundary)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30024</td>
+<td>GP Registration - Application rejected (Previously removed from this practice)</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30025</td>
+<td>GP Registration - Application rejected (Previously removed from another practice)</td>	
 <td></td>
 </tr>
 </table>
