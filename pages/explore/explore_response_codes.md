@@ -204,6 +204,132 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>Patient known here and recently deceased (i.e. patient record current in GP practice system at time of patient’s death and deduction subsequently occurred for this reason)</td>
 <td>This response is only applicable for a window of less than 6-months and would start at Date of Death of Patient (or Date of Deduction when reason for this is patient’s death). If an ITK3 payload message is then received at 6 months or beyond, then the response code would revert to a 30003.</td>	
 </tr>
+<tr>
+<td>30005</td>
+<td>Positive</td>
+<td>Referral open</td>
+<td>Referral open.</td>	
+</tr>
+<tr>
+<td>30006</td>
+<td>Positive</td>
+<td>Referral completed</td>
+<td>Referral completed.</td>	
+</tr>
+<tr>
+<td>30007</td>
+<td>negative</td>
+<td>Referral escalated back to GP</td>
+<td>Referral escalated back to GP.</td>	
+</tr>
+<tr>
+<td>30008</td>
+<td>Positive</td>
+<td>Signposting to GP (non-urgent)</td>
+<td>Patient signposted back to GP. Not a clinically urgent issue.</td>	
+</tr>
+<tr>
+<td>30009</td>
+<td>Positive</td>
+<td>Clinical escalation to 111/GPOOH</td>
+<td>Clinical escalation to 111, UTC or GP Out of Hours once consultation has completed.</td>	
+</tr>
+<tr>
+<td>30010</td>
+<td>Positive</td>
+<td>Clinical escalation to UTC/A&E or 999</td>
+<td>Clinical escalation to 999 or A&E once consultation has completed.</td>	
+</tr>
+<tr>
+<td>30011</td>
+<td>Positive</td>
+<td>Advised to go elsewhere/self-referral</td>
+<td>Patient advised to go elsewhere once consultation has completed.</td>	
+</tr>
+<tr>
+<td>30012</td>
+<td>Negative</td>
+<td>Unable to contact the patient</td>
+<td>Attempted to contact the patient at least three times unsuccessfully.</td>	
+</tr>
+<tr>
+<td>30013</td>
+<td>Positive</td>
+<td>Closure (service not needed)</td>
+<td>Patient advises that the service is not longer needed.</td>	
+</tr>
+<tr>
+<td>30014</td>
+<td>Negative</td>
+<td>Closure (service not accepted)</td>
+<td>Patient does not accept the service being offered.</td>	
+</tr>
+<tr>
+<td>30015</td>
+<td>Negative</td>
+<td>Closure (duplicate referral)</td>
+<td>Duplicate referral.</td>	
+</tr>
+<tr>
+<td>30016</td>
+<td>Positive</td>
+<td>Referral accepted</td>
+<td>Referral accepted.</td>	
+</tr>
+<tr>
+<td>30017</td>
+<td>Negative</td>
+<td>Referral rejected</td>
+<td>Referral rejected.</td>	
+</tr>
+<tr>
+<td>30018</td>
+<td>Negative</td>
+<td>Did Not Attend</td>
+<td>Patient failed to attend the appointment/answer the call.</td>	
+</tr>
+<tr>
+<td>30019</td>
+<td>Positive</td>
+<td>GP Registration - Application accepted</td>
+<td>The registration has been accepted by the GP practice.</td>	
+</tr>
+<tr>
+<td>30020</td>
+<td>Negative</td>
+<td>GP Registration - Application pending (contact practice)</td>
+<td>The registration has not been accepted. The patient needs to contact the GP practice.</td>	
+</tr>
+<tr>
+<td>30021</td>
+<td>Negative</td>
+<td>GP Registration - Application rejected (patient already registered)</td>
+<td>The registration has not been accepted. The patient is already registered at the practice.</td>	
+</tr>
+<tr>
+<td>30022</td>
+<td>Negative</td>
+<td>GP Registration - Application rejected (at capacity)</td>
+<td>The registration has not been accepted. The practice is at capacity and is not currently taking any new registrations.</td>	
+</tr>
+<tr>
+<td>30023</td>
+<td>Negative</td>
+<td>GP Registration - Application rejected (out of boundary)</td>
+<td>The registration has not been accepted. The patient is out of boundary.</td>	
+</tr>
+<tr>
+<td>30024</td>
+<td>Negative</td>
+<td>GP Registration - Application rejected (Previously removed from this practice)</td>
+<td>The registration has not been accepted. The patient has previously been removed from this practice.</td>	
+</tr>
+<tr>
+<td>30025</td>
+<td>Negative</td>
+<td>GP Registration - Application rejected (Previously removed from another practice)</td>
+<td>The registration has not been accepted. The patient has previously been removed from another practice.</td>	
+</tr>
 </table>	
 
 
