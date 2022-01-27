@@ -1036,3 +1036,178 @@ These responses will be returned using the ITK3 Response message if requested by
 </tr>
 </table>
 
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30005</td>
+<td>Referral open</td>
+<td></td>	
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30006</td>
+<td>Referral completed</td>
+<td></td>	
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td>
+<td>IssueSeverity</td>	
+<td>warning</td>
+<td>Warning</td>
+<td>The issue caused the action to fail, and no further checking could be performed.</td>
+</tr>
+<tr>	
+<td>issue.code</td>
+<td>IssueType</td>
+<td>business-rule</td>
+<td>Business Rule Violation</td>
+<td>The content/operation failed to pass some business rule, and so could not proceed.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30007</td>
+<td>Referral escalated back to GP</td>	
+<td></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30008</td>
+<td>Signposting to GP (non-urgent)/td>
+<td></td>	
+</tr>
+</table>
