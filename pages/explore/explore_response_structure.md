@@ -1251,7 +1251,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>issue.details.code</td>
 <td>ITK-Response-Codes</td>		
 <td>30009</td>
-<td>Signposting to GP (non-urgent)</td>
+<td>Clinical escalation to 111/GPOOH</td>
 <td></td>	
 </tr>
 </table>
@@ -1693,50 +1693,6 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>30019</td>
 <td>GP Registration - Application accepted</td>
 <td></td>	
-</tr>
-</table>
-
-<table>
-<tr>
-<th>Element</th>	
-<th>CodeSystem</th>	
-<th>Value</th>
-<th>Display</th>	
-<th>Definition</th>
-</tr>
-<tr>
-<th colspan="5" align="left">MessageHeader</th>
-</tr>
-<tr>
-<td>response.code</td>	
-<td>ResponseType</td>	
-<td>fatal-error</td>
-<td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
-</tr>
-<tr>	
-<th colspan="5" align="left">OperationOutcome</th>
-</tr>
-<tr>
-<td>issue.severity.code</td>
-<td>IssueSeverity</td>	
-<td>warning</td>
-<td>Warning</td>
-<td>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</td>
-</tr>
-<tr>	
-<td>issue.code</td>	
-<td>IssueType</td>	
-<td>informational</td>
-<td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
-</tr>
-<tr>	
-<td>issue.details.code</td>
-<td>ITK-Response-Codes</td>		
-<td>30020</td>
-<td>GP Registration - Application pending (contact practice)</td>	
-<td></td>
 </tr>
 </table>
 

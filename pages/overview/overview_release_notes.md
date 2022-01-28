@@ -10,7 +10,7 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 <!-- {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %} -->
 ## 2.10.0-live ##
 
-**Value Sets / Code Systems**
+**Code System**
 
 - Added new response codes, 30005 to 30025 to the CodeSystem ITK-ResponseCodes-1.  This is to enable ITK3 to support more business acknowledgements to extend the Send Document capability so that referrals to alternative care providers (ACP) can be sent.
 
