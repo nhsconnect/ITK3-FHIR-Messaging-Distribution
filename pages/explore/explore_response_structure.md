@@ -76,7 +76,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>
 <th colspan="5" align="left">OperationOutcome elements</th>
@@ -125,7 +125,7 @@ relating to Handling Specification faults.</td>
 <td>ResponseType</td>
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>
 <th colspan="5" align="left">OperationOutcome elements</th>
@@ -244,7 +244,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -271,7 +271,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -315,7 +315,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>		
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -359,7 +359,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>		
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -404,7 +404,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -448,7 +448,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -492,7 +492,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>
 <th colspan="5" align="left">OperationOutcome</th>
@@ -548,7 +548,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -592,7 +592,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -636,7 +636,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>
 <th colspan="5" align="left">OperationOutcome</th>
@@ -695,7 +695,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -739,7 +739,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -783,7 +783,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -827,7 +827,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -894,7 +894,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -921,7 +921,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>
 <th colspan="5" align="left">OperationOutcome</th>
@@ -965,7 +965,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1025,7 +1025,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1069,7 +1069,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1113,7 +1113,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1140,7 +1140,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1157,7 +1157,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1201,7 +1201,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1245,7 +1245,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1289,7 +1289,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1333,7 +1333,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1360,7 +1360,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1377,7 +1377,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1421,7 +1421,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1448,7 +1448,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1465,7 +1465,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1492,7 +1492,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1553,7 +1553,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1580,7 +1580,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1597,7 +1597,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1624,7 +1624,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1641,7 +1641,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1685,7 +1685,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1712,7 +1712,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1729,7 +1729,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1756,7 +1756,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1773,7 +1773,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1800,7 +1800,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1817,7 +1817,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1844,7 +1844,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1861,7 +1861,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1888,7 +1888,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1905,7 +1905,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>
@@ -1932,7 +1932,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ResponseType</td>	
 <td>fatal-error</td>
 <td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</td>
 </tr>
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -1949,7 +1949,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>IssueType</td>	
 <td>informational</td>
 <td>Informational Note</td>
-<td>A message unrelated to the processing success of the completed operation.</td>
+<td>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</td>
 </tr>
 <tr>	
 <td>issue.details.code</td>

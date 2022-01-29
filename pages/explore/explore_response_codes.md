@@ -70,7 +70,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>10007</td>
 <td>Negative</td>
 <td>Sender Reference Value - Processing Error</td>
-<td>The handling specification for Sender Reference is present but cannot be processed. For example, may be unreadable, contain an incorrect value or the use of Sender Reference is not supported by receiving system</td>
+<td>The handling specification for Sender Reference is present but cannot be processed. For example, may be unreadable, contain an incorrect value or the use of Sender Reference is not supported by receiving system.</td>
 </tr>
 <tr>
 <td>10008</td>
@@ -256,7 +256,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>30013</td>
 <td>Positive</td>
 <td>Closure (service not needed)</td>
-<td>Patient advises that the service is not longer needed.</td>	
+<td>Patient advises that the service is no longer needed.</td>	
 </tr>
 <tr>
 <td>30014</td>
