@@ -218,7 +218,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 </tr>
 <tr>
 <td>30007</td>
-<td>negative</td>
+<td>Negative</td>
 <td>Referral escalated back to GP</td>
 <td>Referral escalated back to GP.</td>	
 </tr>
