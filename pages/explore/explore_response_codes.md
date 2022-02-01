@@ -231,13 +231,13 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>30009</td>
 <td>Positive</td>
-<td>Clinical escalation to 111/GPOOH</td>
+<td>Clinical escalation to UTC/111/GPOOH</td>
 <td>Clinical escalation to 111, UTC or GP Out of Hours once consultation has completed.</td>	
 </tr>
 <tr>
 <td>30010</td>
 <td>Positive</td>
-<td>Clinical escalation to UTC/A&E or 999</td>
+<td>Clinical escalation to A&E or 999</td>
 <td>Clinical escalation to 999 or A&E once consultation has completed.</td>	
 </tr>
 <tr>

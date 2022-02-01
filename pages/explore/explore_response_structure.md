@@ -1251,7 +1251,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>issue.details.code</td>
 <td>ITK-Response-Codes</td>		
 <td>30009</td>
-<td>Clinical escalation to 111/GPOOH</td>
+<td>Clinical escalation to UTC/111/GPOOH</td>
 <td></td>	
 </tr>
 </table>
@@ -1295,7 +1295,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>issue.details.code</td>
 <td>ITK-Response-Codes</td>		
 <td>30010</td>
-<td>Clinical escalation to UTC/A&E or 999</td>
+<td>Clinical escalation to A&E or 999</td>
 <td></td>	
 </tr>
 </table>
